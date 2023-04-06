@@ -7,7 +7,7 @@ import DarkModeSwitch from "./DarkModeSwitch";
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center mx-2 py-6 xl:mx-auto max-w-6xl ">
+    <div className="flex justify-between items-center py-6 mx-auto max-w-6xl ">
       <div className="flex">
         <MenuItem title="HOME" address="/" Icon={AiFillHome} />
         <MenuItem title="ABOUT" address="/about" Icon={BsFillInfoCircleFill} />
