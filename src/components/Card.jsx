@@ -17,7 +17,7 @@ const Card = ({ result }) => {
           width={500}
           height={300}
           placeholder="blur"
-          blurDataURL="/spinner.svg"
+          blurDataURL="/infinity.svg"
         />
         <div className="p-2">
           <p className="line-clamp-2">{result.overview}</p>
